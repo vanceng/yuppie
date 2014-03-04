@@ -9,6 +9,7 @@ end
 
 ###
 # Add your "test" code below...
-# The test code will call the method with different permutations of options and output the result each time so that you can validate it.
-# Without the test code, it will be hard for you to know if this method is working or not.
+# The test code will call the method with different permutations of options and output the result each time.
+# This way, you will be able to run the renter.rb file from the CLI and look at the output of your "tests" to validate it the method works.
+# Without the test code, it will be hard for you to know if this method is working as it should or not.
 ###
