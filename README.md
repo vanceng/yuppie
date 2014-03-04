@@ -1,13 +1,15 @@
-# The Yuppie Renter
+# The Yuppie Vancouverite
 
-Here we have a `rent?` method that decides if we are going to an apartment based on some information about it. It's passed 3 key pieces of information that are used to determine this:
+The Yuppie Vancouverite needs to rent an apartment downtown!
+
+Here we have a `rent?` method that helps them decide if they are going to an apartment based on some information about it. It's passed 3 key pieces of information that are used to determine this:
 
 1. Is the apartment `furnished`? Since this is a yes/no thing, it's a boolean (`true`/`false`)
 2. Is the apartment `baller`? Since this is a yes/no thing, it's a boolean (`true`/`false`)
 3. The monthly `rent` for the apartment. This is expected to be an integer (`Fixnum`)
 
 
-Firstly, We only want to rent it if it's baller (whatever that means!). Furthermore, we only want it if it's furnished but are willing to make an exception if it's rent is cheaper than 2100 per month (Ugh...Downtown Vancouver prices!)
+Firstly, They only want to rent it if it's baller (whatever that means!). Furthermore, they only want it if it's furnished but are willing to make an exception if it's rent is cheaper than 2100 per month (Ugh...Downtown Vancouver prices!)
 
 ### Steps:
 1. Write test code by outputting the return values for possible permutations of this method (at the bottom of this file)
